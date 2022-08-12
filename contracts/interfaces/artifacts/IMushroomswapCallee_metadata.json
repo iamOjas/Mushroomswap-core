@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "MushroomswapCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/core/contracts/interfaces/IMushroomswapCallee.sol": "IMushroomswapCallee"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/core/contracts/interfaces/IMushroomswapCallee.sol": {
+			"keccak256": "0xd30739aea5261a9948f5367b8469609a6d669144231ece4c059ca3d0c2ed3f14",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0fc1a4d2b762b0372e16436aeb67b1ed1aae7208ddee05de1ec1864b28a76086",
+				"dweb:/ipfs/QmX5ArbNje3LsNNnozmjBknYrkAFpwFjEpfNrifMTz831P"
+			]
+		}
+	},
+	"version": 1
+}
